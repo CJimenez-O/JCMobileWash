@@ -1,9 +1,14 @@
- document.querySelector(".slider input").addEventListener("input", function(){
+//slider
+
+document.querySelector(".slider input").addEventListener("input", function(){
     document.querySelector(".og-image").style.width = this.value + "%";
     
 console.log(document.querySelector(".og-image").style.width );
 });
 
+
+
+// fixes nav bar
 
 nav = document.querySelector(".nav-links");
 document.querySelector(".nav-links").addEventListener("click", function(e){
@@ -26,6 +31,8 @@ menu.addEventListener("click", function(e){
 })
 
 
+
+// Homepage button
 
 const btn = document.querySelector(".button")
 btn.addEventListener("click", function(e){

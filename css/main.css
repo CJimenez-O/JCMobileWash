@@ -309,6 +309,8 @@ h2{
   text-decoration: underline;
   font-weight: bold;
   font-size: 25px;
+  font-family: 'Lobster Two', cursive;
+  text-shadow: silver 0px 0px 10px;
 }
 
 #pricing{
@@ -530,6 +532,7 @@ h2{
     padding-top: 0px;
   }
 
+
   
 }
 
@@ -559,15 +562,10 @@ h2{
   padding-left: 24%;
 }
 
-.social3{
-  padding-left: 20%;
-  padding-top: 20px;
-  font-family: 'raleway'
-}
 
-.social3 i{
-  padding-top: 0px; 
-  padding-left: 2%;
+.right-col-3{
+  padding-top: 4%;
+  font-family: "raleway";
 }
 
 
@@ -584,9 +582,6 @@ h2{
 
 
 
-  .mark{ 
-    padding-left: 4%;
-  }
 
   .footert{
     padding-left: 4%;
@@ -669,5 +664,9 @@ h2{
   
   .responce{
     min-width: 200px;
+  }
+
+  .mark{
+    text-align: center;
   }
 }
