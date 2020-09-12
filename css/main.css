@@ -473,9 +473,6 @@ h2{
   .homepage{
     min-width: 450px;
   }
-  nav{
-    
-  }
 
   .responce{
     min-width: 450px;
@@ -505,7 +502,6 @@ h2{
   }
 
   .slider{
-    left: 10px;
     height: 50vh;
   }
 
@@ -575,7 +571,7 @@ h2{
 }
 
 
-@media screen and (max-width: 435px){
+@media screen and (max-width: 455px){
 
   .homepage{
     min-width: 440px;
@@ -606,9 +602,7 @@ h2{
     padding-left: 0%;
   }
 
-  .slider{
-    left: 10px;
-  }
+  
 
   .serv{
     min-width: 0px;
@@ -618,5 +612,62 @@ h2{
 
   .container{
     min-width: 440px;
+  }
+}
+
+
+@media screen and (max-width: 425px){
+
+  .homepage{
+    min-width: 320px;
+
+  }
+
+
+  .services{
+    min-width: 320px;
+  }
+
+  .container{
+    min-width: 300px;
+  }
+
+  .content-box{
+    min-width: 300px;
+  }
+
+  
+  .responce{
+    min-width: 320px;
+  }
+}
+
+@media screen and (max-width: 385px){
+
+  .homepage{
+    min-width: 200px;
+
+  }
+
+
+  .services{
+    min-width: 200px;
+  }
+
+  .slider{
+    min-width: 260px;
+  }
+
+  .container{
+    min-width: 280px;
+  }
+
+  .content-box{
+    min-width: 270px;
+  }
+
+  
+  .responce{
+    min-width: 200px;
   }
 }
